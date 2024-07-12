@@ -1,16 +1,11 @@
-const express = require ('express');
-import express from "express";
-import { peopleRouter } from "./routes/tempUsersRoutes.js";
+import express from 'express';
+import { userRouter } from './routes/tempUsersRoutes.js'
 
-const app = express()
-const port = 3000
+const app = express();
+const port = 7070;
 
-// permite nosso js entender json
 app.use(express.json());
+app.use(userRouter);
 
-// dando acesso as nossas rotas
-app.use(peopleRouter);
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+app.listen(port, () => { });
+ 
