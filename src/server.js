@@ -1,5 +1,6 @@
+const express = require ('express');
 import express from "express";
-import { peopleRouter } from "./routes/people.routes.js";
+import { peopleRouter } from "./routes/tempUsersRoutes.js";
 
 const app = express()
 const port = 3000
