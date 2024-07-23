@@ -1,11 +1,3 @@
-<<<<<<< HEAD
- 
-
-
-
-
-
-=======
 # Temporary User API
 
 ## Sumário
@@ -88,4 +80,3 @@ Retorna uma lista de todos os usuários temporários cujo `statusComplemented` �
 ### Listar Usuários com Status Falso
 
 Retorna uma lista de todos os usuários temporários cujo `statusComplemented` é `false`.
->>>>>>> 5833943008603403296654399a631d88d5d47787
