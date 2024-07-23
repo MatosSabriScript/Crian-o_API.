@@ -30,7 +30,7 @@ Esta API permite a criação e gerenciamento de usuários temporários com atrib
 - **Método:** `POST`
 - **Parâmetros:**
   - `raceNumber`: Número da corrida.
-  - `statusComplemented`: Status complementado.
+  - `statusComplemented`: Status complementado. **(Typeof= Boolean)**
   - `createdAt`: Data de criação.
 - **Descrição:** Adiciona um novo usuário temporário e retorna os detalhes do usuário criado.
 
